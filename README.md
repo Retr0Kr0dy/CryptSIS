@@ -2,18 +2,18 @@
 
 ## Summary
 
-[CrpyptSIS_2.3 (last-releases)](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_23-)
+[CrpyptSIS_2.5 (last-releases)](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
 
 <details><summary>CryptSIS 1.x</summary>
 <p>
 
-[CrpyptSIS_1.1](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_11-)
+[CrpyptSIS_1.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
  
-[CrpyptSIS_1.2](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_12-)
+[CrpyptSIS_1.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_12-)
 
-[CrpyptSIS_1.3](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_13-)
+[CrpyptSIS_1.3](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_13-)
 
-[CrpyptSIS_1.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_14-)
+[CrpyptSIS_1.4](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_14-)
 
 </details>
 </p>
@@ -21,15 +21,15 @@
 <details><summary>CryptSIS 2.x</summary>
 <p>
  
-[CrpyptSIS_2.1](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_21-)
+[CrpyptSIS_2.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_21-)
  
-[CrpyptSIS_2.2](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_22-)
+[CrpyptSIS_2.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_22-)
 
-[CrpyptSIS_2.3](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_23-)
+[CrpyptSIS_2.3](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_23-)
 
-[CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_24-)
+[CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_24-)
  
-[CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_25-)
+[CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
  
 </details>
 </p>
