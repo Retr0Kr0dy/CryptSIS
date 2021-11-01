@@ -29,6 +29,8 @@
 
 [CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_24-)
  
+[CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_24-)
+ 
 </details>
 </p>
  
@@ -121,3 +123,13 @@ random key created with saving it in file
 Fully usable with error code
 can't use args with this script
 ```
+
+- #### - CryptSIS_2.5 :
+
+ >full-releases
+ {fully-functional}
+
+```
+Two-way encryption, multi-usage key implemented (re-use same key to encrypt another file)
+```
+
