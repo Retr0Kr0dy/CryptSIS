@@ -29,16 +29,20 @@
 
 [CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_24-)
  
-[CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_24-)
+[CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/ScriptVirusMess/tree/main/py/CRYPTOR#--cryptsis_25-)
  
 </details>
 </p>
- 
-## **CryptSIS**
 
-### **CrptSIS 1.0**
+## **CrptSIS 1.0**
 
 SHA-256/UTF-8 encryption
+
+### Requirements 
+
+ - Python 3.9 
+
+### Releases
 
 - #### - CryptSIS_1.1 :
 
@@ -77,9 +81,17 @@ can't use args with this script
 monitoring version
 ```
 
-### **CrptSIS 2.0**
+## **CrptSIS 2.0**
 
 BLOWFISH encryption
+
+### Requirements 
+
+ - Python 3.10 
+
+ - Blowfish lib
+
+### Releases
 
 - #### - CryptSIS_2.1 :
 
