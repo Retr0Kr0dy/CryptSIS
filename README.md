@@ -30,7 +30,10 @@
 [CrpyptSIS_2.4](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_24-)
  
 [CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
- 
+
+[CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
+
+
 </details>
 </p>
 
@@ -145,3 +148,11 @@ can't use args with this script
 Two-way encryption, multi-usage key implemented (re-use same key to encrypt another file)
 ```
 
+- #### - CryptSIS_2.6 :
+
+ >not-released
+ {work-in-progress}
+
+```
+Two-way encryption, args implemented
+```
