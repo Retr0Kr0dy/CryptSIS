@@ -2,7 +2,7 @@
 
 ## Summary
 
-[CrpyptSIS_2.5 (last-releases)](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
+[CrpyptSIS_2.6 (last-releases)](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
 
 <details><summary>CryptSIS 1.x</summary>
 <p>
