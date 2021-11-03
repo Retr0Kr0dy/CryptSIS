@@ -150,9 +150,10 @@ Two-way encryption, multi-usage key implemented (re-use same key to encrypt anot
 
 - #### - CryptSIS_2.6 :
 
- >not-released
- {work-in-progress}
+ >full-releases
+ {fully-functional}
 
 ```
 Two-way encryption, args implemented
+Releases only contain .py, not .exe because of the args usage.
 ```
