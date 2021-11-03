@@ -31,7 +31,7 @@
  
 [CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
 
-[CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
+[CrpyptSIS_2.6](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
 
 
 </details>
