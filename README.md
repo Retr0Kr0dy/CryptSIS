@@ -8,7 +8,6 @@
 <p>
 
 [CrpyptSIS_1.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
- 
 [CrpyptSIS_1.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_12-)
 
 [CrpyptSIS_1.3](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_13-)
