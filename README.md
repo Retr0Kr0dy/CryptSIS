@@ -2,7 +2,7 @@
 
 ## Summary
 
-[CrpyptSIS_2.6 (last-releases)](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
+[CrpyptSIS_2.6 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
 
 <details><summary>CryptSIS 1.x</summary>
 <p>
@@ -33,6 +33,14 @@
 
 [CrpyptSIS_2.6](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
 
+
+</details>
+</p>
+
+<details><summary>CryptSIS 3.x</summary>
+<p>
+
+[CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_31-)
 
 </details>
 </p>
@@ -156,4 +164,25 @@ Two-way encryption, multi-usage key implemented (re-use same key to encrypt anot
 ```
 Two-way encryption, args implemented
 Releases only contain .py, not .exe because of the args usage.
+```
+
+
+## **CrptSIS 3.0**
+pycrypto/AES encryption
+
+### Requirements 
+
+ - Python 3.10 
+
+ - Pycryptodome lib
+
+### Releases
+
+- #### - CryptSIS_3.1 :
+
+ >dev-releases
+ {not-usable}
+
+```
+Just messing with pycrypto nd testing out thingz
 ```
