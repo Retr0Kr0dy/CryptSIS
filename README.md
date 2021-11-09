@@ -43,6 +43,8 @@
 [CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_31-)
  
 [CrpyptSIS_3.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_32-)
+ 
+[CrpyptSIS_3.3(https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_33-)
 
 </details>
 </p>
@@ -72,6 +74,7 @@ SHA-256/UTF-8 encryption
 Simple cryptor/decryptor with a preset key in the code 
 (key can be ask as an input)
 can't use args with this script
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 - #### - CryptSIS_1.3 :
@@ -83,6 +86,7 @@ can't use args with this script
 $text_block implementation for the output written string 
 (for easier handling)
 can't use args with this script
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 - #### - CryptSIS_1.4 :
@@ -135,6 +139,7 @@ Two-way encryption, decryption implemented,
 random key created with saving it in file
 Fully usable, exept no error code
 can't use args with this script
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 - #### - CryptSIS_2.4 :
@@ -147,6 +152,7 @@ Two-way encryption, decryption implemented,
 random key created with saving it in file
 Fully usable with error code
 can't use args with this script
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 - #### - CryptSIS_2.5 :
@@ -156,6 +162,7 @@ can't use args with this script
 
 ```
 Two-way encryption, multi-usage key implemented (re-use same key to encrypt another file)
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 - #### - CryptSIS_2.6 :
@@ -166,6 +173,7 @@ Two-way encryption, multi-usage key implemented (re-use same key to encrypt anot
 ```
 Two-way encryption, args implemented
 Releases only contain .py, not .exe because of the args usage.
+⚠️⚠️no Auth⚠️⚠️
 ```
 
 
@@ -198,4 +206,15 @@ Just messing with pycrypto nd testing out thingz
 
 ```
 making it working 😭
+```
+
+
+- #### - CryptSIS_3.3
+
+ >dev-releases
+ {usable}
+
+```
+PyCryptodome AES CBC encryption/decryption
+⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
 ```
