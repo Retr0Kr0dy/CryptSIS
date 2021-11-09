@@ -197,5 +197,5 @@ Just messing with pycrypto nd testing out thingz
  {not-usable}
 
 ```
-making it working :sob:
+making it working 😭
 ```
