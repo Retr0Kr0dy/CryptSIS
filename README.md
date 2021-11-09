@@ -41,6 +41,8 @@
 <p>
 
 [CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_31-)
+ 
+[CrpyptSIS_3.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_32-)
 
 </details>
 </p>
@@ -168,6 +170,7 @@ Releases only contain .py, not .exe because of the args usage.
 
 
 ## **CrptSIS 3.0**
+
 pycrypto/AES encryption
 
 ### Requirements 
@@ -185,4 +188,14 @@ pycrypto/AES encryption
 
 ```
 Just messing with pycrypto nd testing out thingz
+```
+
+
+- #### - CryptSIS_3.2:
+
+ >dev-releases
+ {not-usable}
+
+```
+making it working :crying_face:
 ```
