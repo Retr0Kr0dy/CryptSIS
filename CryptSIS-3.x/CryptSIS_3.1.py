@@ -1,33 +1,35 @@
 __author__ = 'RetR0'
 
 from Crypto.Cipher import AES
-from os import urandom
+from os import terminal_size, urandom
 import os
 
-input_text = input ("text : ")
-text = b'input_text' * 2
+#ask for input
 
-text_block = input_text
-text_block_2 = bytes()
-for i in range (len(text_block)):
-    c = text_block[i]
-    j = i % len(text)
-    b = bytes ([c^text[j]])
-    text_block_2 = text_block_2 + b
+text = (input ("text : ").encode()) * 16
 
-# text = 'hello world 1234'
+
+#encrypt da string
 iv = 16 * b'\x00'
 keyfile = 16 * b'\x00'
+# iv = urandom(16)
+# keyfile = urandom(16)
+print (iv)
+print (keyfile)
 key = AES.new(keyfile, AES.MODE_CBC, iv)
 
-ciphertext = key.encrypt(text_block_2)
+ciphertext = key.encrypt(text)
 
 print (ciphertext)
 
+#decrypt da string
 iv = 16 * b'\x00'
 keyfile = 16 * b'\x00'
+print (iv)
+print (keyfile)
 key = AES.new(keyfile, AES.MODE_CBC, iv)
 
 ciphertext2 = key.decrypt(ciphertext)
-
 print (ciphertext2)
+ciphertext3 = ciphertext2[:int(len(ciphertext2)/16)]
+print (ciphertext3)
