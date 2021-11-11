@@ -49,6 +49,8 @@
 [CrpyptSIS_3.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_32-)
  
 [CrpyptSIS_3.3](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_33-)
+ 
+[CrpyptSIS_3.4](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_34-)
 
 </details>
 </p>
@@ -214,6 +216,18 @@ making it working 😭
 
 
 - #### - CryptSIS_3.3
+
+ >dev-releases
+ {usable}
+
+```
+PyCryptodome AES CBC encryption/decryption
+⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
+```
+
+
+
+- #### - CryptSIS_3.4
 
  >dev-releases
  {usable}
