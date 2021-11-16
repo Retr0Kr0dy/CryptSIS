@@ -44,7 +44,7 @@
 <details><summary>CryptSIS 3.x</summary>
 <p>
 
-[CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_31)
+[CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_31-)
  
 [CrpyptSIS_3.2](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_32)
  
