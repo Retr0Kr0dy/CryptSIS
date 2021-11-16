@@ -55,6 +55,16 @@
 </details>
 </p>
 
+
+<details><summary>CryptSIS F_app.1.0.x</summary>
+<p>
+
+[CrpyptSIS_F_app.1.0.1](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+ 
+</details>
+</p>
+
+
 ## **CrptSIS 1.0**
 
 SHA-256/UTF-8 encryption
