@@ -205,7 +205,7 @@ Just messing with pycrypto nd testing out thingz
 ```
 
 
-- #### - CryptSIS_3.2:
+- #### - CryptSIS_3.2 :
 
  >dev-releases
  {not-usable}
@@ -215,7 +215,7 @@ making it working 😭
 ```
 
 
-- #### - CryptSIS_3.3
+- #### - CryptSIS_3.3 :
 
  >dev-releases
  {usable}
@@ -227,7 +227,7 @@ PyCryptodome AES CBC encryption/decryption
 
 
 
-- #### - CryptSIS_3.4
+- #### - CryptSIS_3.4 :
 
  >dev-releases
  {usable}
@@ -236,3 +236,26 @@ PyCryptodome AES CBC encryption/decryption
 PyCryptodome AES CBC encryption/decryption
 ⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
 ```
+
+
+## **CrptSIS F-app.1.0.x**
+
+All ciphers usable in one version
+
+### Requirements 
+
+ - Python 3.10 
+ - Blowfish lib
+ - Pycryptodome lib
+
+### Releases
+
+- #### - CryptSIS_F-app.1.0.1 :
+
+ >dev-releases
+ {not-usable}
+
+```
+in coming...
+```
+
