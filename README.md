@@ -51,6 +51,8 @@
 [CrpyptSIS_3.3](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_33)
  
 [CrpyptSIS_3.4](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_34)
+ 
+[CrpyptSIS_3.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_35)
 
 </details>
 </p>
@@ -244,6 +246,16 @@ PyCryptodome AES CBC encryption/decryption
 
 ```
 PyCryptodome AES CBC encryption/decryption
+⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
+```
+
+- #### - CryptSIS_3.4 :
+
+ >dev-releases
+ {usable}
+
+```
+Now it look like something.
 ⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
 ```
 
