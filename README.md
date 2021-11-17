@@ -6,7 +6,7 @@
 
 ## Summary
 
-[CrpyptSIS._F_app.1.0.2 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS/releases/tag/CryptSIS_F_app.1.0.2)
+[CryptSIS._F_app.1.0.2 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS/releases/tag/CryptSIS_F_app.1.0.2)
 
 <details><summary>CryptSIS 1.x</summary>
 <p>
