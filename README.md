@@ -249,7 +249,7 @@ PyCryptodome AES CBC encryption/decryption
 ⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
 ```
 
-- #### - CryptSIS_3.4 :
+- #### - CryptSIS_3.5 :
 
  >dev-releases
  {usable}
@@ -274,10 +274,7 @@ All ciphers usable in one version
 
 - #### - CryptSIS_F-app.1.0.1 :
 
- >dev-releases
- {not-usable}
-
 ```
-in coming...
+[not-released]
 ```
 
