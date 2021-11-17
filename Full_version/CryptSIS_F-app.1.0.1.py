@@ -7,6 +7,18 @@ import os
 import blowfish
 import sys
 
+print ("\n")
+print ("""             -._.                   .,ad88888ba,.
+        _____   '8',             .,ad8888888888888a,
+     ,'888,'     '88',          d8P²²²98888P²²²98888b, 
+   ,'8888,\       |88|          9b    d8888,    `9888B   
+   \8888888\      |88|         ,d88aaa8888888b,,,d888P'  
+    \8/^ \88\    ,'8,         d8888888888888888888888b  
+          \88\  ,'8,'        d888888P""98888888888888P  
+    /88~-._\.8'88,'          88888P'    9888888888888  
+   /888_8_8_8~8\             `98P'       9888888888P'     
+  /88/'      \88\                         `"9888P"' 
+  \8/         \8/'                                  by Krdÿ.  """)
 
 print (" ___________________________________________________________\n*************************************************************")
 print (""" ██████╗██████╗ ██╗   ██╗██████╗ ████████╗███████╗██╗███████╗
@@ -15,14 +27,13 @@ print (""" ██████╗██████╗ ██╗   ██╗█�
 ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ╚════██║██║╚════██║
 ╚██████╗██║  ██║   ██║   ██║        ██║   ███████║██║███████║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝   ╚══════╝╚═╝╚══════╝""")
-# print ("*************************************************************\n ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ͞ ")
 print ("*************************************************************")
 print (" Encrypt/Decrpyt Using different Ciphers, Version F-app1.0.1")
 print (" -----------------------------------------------------------")
 
 
 def main ():
-    to_do = input ("\n1 - SHA256/utf-8\n2 - Blowfish\n3 - AES CBC (cryptodome)\n\nPlease enter a number : ")
+    to_do = input ("\nSelect a Cipher.\n\n1 - SHA256/utf-8\n2 - Blowfish\n3 - AES CBC (cryptodome)\n\nPlease enter a number : ")
     if to_do == "1":
         verion1cipher()
     
@@ -38,14 +49,34 @@ def verion1cipher ():
 
     print ("\n**********************SHA256/utf-8***************************")
     print ("*************************************************************")
-    print ("\n╔═══════════════════════════════════════════════════════════╗")
-    print ("║ Two way encryption, key isn't save in a file, you got to  ║ \n║ type it in raw text whenever you want to use this cipher. ║")
-    print ("╚═══════════════════════════════════════════════════════════╝\n")
+    print ("""\n╔═══════════════════════════════════════════════════════════╗
+║ Two way encryption using simple XOR operation with a      ║
+║ raw text key and SHA256/utf-8 encoding.                   ║
+║                                                           ║ 
+║                                                           ║ 
+║ First, you got to specify wich file you want to encrypt,  ║
+║ then you specify the name of the output file,             ║
+║ last you got to enter the key you want to use in raw text ║
+║ (you can't save the key).                                 ║
+║                                                           ║ 
+║                                                           ║ 
+║ For decryption, remake the same process, this script is   ║
+║ only using XOR opertaion, to make it simple ;             ║
+║                                                           ║ 
+║      raw_text = 1 0 1 0 0 1 (random binary value)         ║
+║           key = 0 1 1 0 1 0 (random binary value)         ║
+║  encrypt_text = 0 0 1 1 0 0 (1;1=1 0;0=1 1;0=0 0;1=0)     ║
+║           key = 0 1 1 0 1 0 (random binary value)         ║
+║  decrypt_text = 1 0 1 0 0 1 (same math)                   ║
+║                                                           ║ 
+║ As you can see, data came back to it original state by    ║
+║ being run through the key a second time.                  ║
+╚═══════════════════════════════════════════════════════════╝\n""")
     
     i = 0
     file_to_crypt = input ("Enter the name of the file to encrypt/decrypt :")
-    output = input ("Enter the output file name :")
-    word_key = input ("Enter the key in raw text : ")
+    output = input ("\nEnter the output file name :")
+    word_key = input ("\nEnter the key in raw text : ")
 
     pre_keys = sha256(word_key.encode('utf-8')).digest()
     hash_keys = hashlib.sha512(pre_keys)
@@ -79,8 +110,8 @@ def version2cipher ():
     to_do = input ("1 - Encrpytion\n2 - Decryption\n\nPlease enter a number : ")
     if to_do == "1":
         text = input ("Enter the name of the file to crypt :")
-        output = input ("Enter the output file name :")
-        keyfile = input ("Import a key file to use or leave empty to create one :")
+        output = input ("\nEnter the output file name :")
+        keyfile = input ("\nImport a key file to use or leave empty to create one :")
         if len(keyfile) > 0:
             iv = os.urandom(8)                
             key = os.urandom(56)
@@ -91,33 +122,33 @@ def version2cipher ():
                 iv = bytes(rawkey[:8])
                 key = bytes(rawkey [8:])
             except EnvironmentError:
-                print ("I/O Error")
+                print ("\nI/O Error")
                 exit(-1)        
         elif len(keyfile) == 0 :
             iv = os.urandom(8)                
             key = os.urandom(56)
-            keyfile = input("Enter the name of the key file to create : ")
+            keyfile = input("\nEnter the name of the key file to create : ")
             try:
                 with open (keyfile, 'wb') as f_keyfile:
                     f_keyfile.write(iv + key)
             except EnvironmentError:
-                print("Error : key file not found")
+                print("\nError : key file not found")
                 exit(-1)
 
     elif to_do == "2":
         text = input ("Enter the name of the file to decrypt :")
-        output = input ("Enter the output file name :")
-        keyfile = input("Enter the name of the key file to use : ")
+        output = input ("\nEnter the output file name :")
+        keyfile = input ("\nEnter the name of the key file to use : ")
         try:
             with open (keyfile, 'rb') as f_key:
                 rawkey = f_key.read()
                 iv = bytes(rawkey[:8])
                 key = bytes(rawkey [8:])
         except EnvironmentError:
-            print("Error : key file not found")
+            print("\nError : key file not found")
             exit(-1)    
     else:
-        print ("Error : invalid Option")
+        print ("\nError : invalid Option")
 
     hashnsalt = blowfish.Cipher(key)
     with open (text, 'rb') as f_file_to_crypt:
