@@ -61,7 +61,7 @@
 <details><summary>CryptSIS F_app.1.0.x</summary>
 <p>
 
-[CrpyptSIS_F_app.1.0.1](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F_app.1.0.2](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
  
 </details>
 </p>
@@ -278,3 +278,12 @@ All ciphers usable in one version
 [not-released]
 ```
 
+- #### - CryptSIS_F-app.1.0.2 :
+
+>full-releases
+{fully-functional}
+
+```
+All the ciphers in one powerfull hand, yours
+⚠️⚠️no Auth⚠️⚠️
+```
