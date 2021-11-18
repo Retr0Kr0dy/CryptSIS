@@ -36,6 +36,8 @@
 [CrpyptSIS_2.5](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_25-)
 
 [CrpyptSIS_2.6](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_26-)
+ 
+[CrpyptSIS_2.secret.1 (triple-blowfish)](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/CryptSIS-2.x/CryptSIS-2.secret.1.py)
 
 
 </details>
@@ -194,6 +196,15 @@ Releases only contain .py, not .exe because of the args usage.
 ⚠️⚠️no Auth⚠️⚠️
 ```
 
+- #### - CryptSIS_2.secret.1 :
+
+ >dev-releases
+ {fully-functional}
+
+```
+triple blowfish encryption, i don't know why, but here is it.
+⚠️⚠️no Auth⚠️⚠️
+```
 
 ## **CrptSIS 3.0**
 
