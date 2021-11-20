@@ -60,6 +60,14 @@
 </p>
 
 
+<details><summary>CryptSIS 4.x</summary>
+<p>
+
+[CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_41-)
+
+</details>
+</p>
+
 <details><summary>CryptSIS F_app.1.0.x</summary>
 <p>
 
@@ -270,6 +278,29 @@ Now it look like something.
 ⚠️⚠️no Auth (stop bothering me it's coming)⚠️⚠️
 ```
 
+## **CrptSIS 4.0**
+
+3x blowfish then 3x AES
+
+### Requirements 
+
+ - Python 3.10 
+
+ - Pycryptodome lib
+
+ - Blowfish lib
+
+### Releases
+
+- #### - CryptSIS_4.1 :
+
+ >dev-releases
+ {usable}
+
+```
+A big mess of code to make useless thingz
+```
+
 
 ## **CrptSIS F-app.1.0.x**
 
@@ -298,3 +329,4 @@ All ciphers usable in one version
 All the ciphers in one powerfull hand, yours
 ⚠️⚠️no Auth⚠️⚠️
 ```
+
