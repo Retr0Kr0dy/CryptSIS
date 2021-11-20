@@ -63,7 +63,7 @@
 <details><summary>CryptSIS 4.x</summary>
 <p>
 
-[CrpyptSIS_3.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_41-)
+[CrpyptSIS_4.1](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_41-)
 
 </details>
 </p>
