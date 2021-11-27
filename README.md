@@ -332,7 +332,7 @@ All the ciphers in one powerfull hand, yours
 ```
 
 
-- #### - CryptSIS_F-app.1.0.2 :
+- #### - CryptSIS_F-app.1.0.4 :
 
 >full-releases
 {fully-functional}
