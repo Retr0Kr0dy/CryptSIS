@@ -892,9 +892,9 @@ if __name__ == "__main__":
 
 
 
+https://nitratine.net/blog/post/asymmetric-encryption-and-decryption-in-python/
 
-
-
+https://www.quickprogrammingtips.com/python/aes-256-encryption-and-decryption-in-python.html
 
 
 #############TEMPPP################
