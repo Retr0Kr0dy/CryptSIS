@@ -2,7 +2,7 @@
 
 ## Summary
 
-- ### [SHA256/utf-8](https://github.com/Retr0Kr0dy/CryptSIS/new/main/Full_version#sha256utf-8-1)
+- ### [SHA256/utf-8](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#sha256utf-8-1)
   
 - ### [Blowfish](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
   
