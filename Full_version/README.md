@@ -4,11 +4,11 @@
 
 - ### [SHA256/utf-8](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#sha256utf-8-1)
   
-- ### [Blowfish](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
+- ### [Blowfish](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#blowfish-1)
   
-- ### [AES-256-CBC](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
+- ### [AES-256-CBC](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#aes-256-cbc-1)
   
-- ### [RSA-2048](https://github.com/Retr0Kr0dy/CryptSIS#--cryptsis_11-)
+- ### [RSA-2048](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#rsa-2048-1)
 
 ## SHA256/utf-8
 
