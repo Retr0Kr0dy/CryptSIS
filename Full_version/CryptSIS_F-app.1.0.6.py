@@ -361,9 +361,9 @@ def version4cipher ():
     print ("""\n╔═══════════════════════════════════════════════════════════╗
 ║ Encryption/Decryption using three RSA private/public key  ║
 ║                                                           ║
-║ 1024 bits key = 86 bytes data                             ║
-║ 2048 bits key = 214 bytes data                            ║
-║ 3072 bits key = 342 bytes data                            ║
+║ 1024 bits key = 62 bytes data                             ║
+║ 2048 bits key = 190 bytes data                            ║
+║ 3072 bits key = 318 bytes data                            ║
 ║                                                           ║ 
 ║ The RSA algorithm is an asymmetric cryptography algorithm;║
 ║ this means that it uses a public key and a private key    ║
