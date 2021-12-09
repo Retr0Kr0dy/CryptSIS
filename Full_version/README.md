@@ -87,6 +87,8 @@ ciphertext using different size keys.
 ## Usage :
 
 ```
+[Data must be less than 190 bytes]
+
 First, you got to generate a RSA private and a RSA public key.
 
 For encryption, you got to specify the name of the file you want to encrypt, 
