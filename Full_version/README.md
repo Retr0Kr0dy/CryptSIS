@@ -1,5 +1,15 @@
 # CryptSIS_F-app.x.x.x
 
+## Requirements
+
+  - [Python 3.9](https://www.python.org/downloads/)
+  
+  - [Blowfish lib](https://pypi.org/project/blowfish/)
+  
+  - [PyCryptodome lib](https://pypi.org/project/pycryptodome/)
+  
+  - [Cryptography lib](https://pypi.org/project/cryptography/)
+
 ## Summary
 
 - ### [SHA256/utf-8](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#sha256utf-8-1)
