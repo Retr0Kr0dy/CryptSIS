@@ -18,7 +18,7 @@
   
 - ### [AES-256-CBC](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#aes-256-cbc-1)
   
-- ### [RSA-2048](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#rsa-2048-1)
+- ### [RSA](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#rsa-1)
 
 - ### [AES-RSA](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/Full_version/README.md#aes-rsa-1)
 
@@ -82,12 +82,14 @@ cipher algorithm that takes plain text in blocks of 128 bits and converts them t
 ciphertext using different size keys.
 ```
 
-# RSA-2048
+# RSA
 
 ## Usage :
 
 ```
-[Data must be less than 190 bytes]
+[1024 bits key = 86 bytes data]
+[2048 bits key = 214 bytes data]
+[3072 bits key = 342 bytes data]
 
 First, you got to generate a RSA private and a RSA public key.
 
