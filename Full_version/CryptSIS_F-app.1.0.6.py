@@ -102,6 +102,7 @@ def verion1cipher ():
 ║ then you specify the name of the output file,             ║
 ║ last you got to enter the key you want to use in raw text ║
 ║ (you can't save the key).                                 ║
+║ [more info in README.md]                                  ║
 ╚═══════════════════════════════════════════════════════════╝\n""")
 
     to_do = input ("\nSelect an option.\n\n\n1 - Encryption/Decryption\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
@@ -163,6 +164,7 @@ def version2cipher ():
 ║ then you specify the name of the output file,             ║
 ║ last you got to create a key file or use an existant key  ║
 ║ file.                                                     ║
+║ [more info in README.md]                                  ║
 ╚═══════════════════════════════════════════════════════════╝\n""")
 
     to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
@@ -260,6 +262,7 @@ def version3cipher ():
 ║ then you specify the name of the output file,             ║
 ║ last you got to create a key file or use an existant key  ║
 ║ file.                                                     ║
+║ [more info in README.md]                                  ║
 ╚═══════════════════════════════════════════════════════════╝\n""")
     
     to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
@@ -370,9 +373,10 @@ def version4cipher ():
 ║ then you specify the name of the output file,             ║
 ║ last you got to specify public key to encrypt             ║
 ║ or private key decrypt.                                   ║
+║ [more info in README.md]                                  ║
 ╚═══════════════════════════════════════════════════════════╝\n""")
 
-    to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n3 - Create key files\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
+    to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n3 - Generate key files\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
 
     if to_do == "1":
         text = input ("\n\nEnter the name of the file to crypt :")
@@ -473,15 +477,43 @@ def version4cipher ():
         version4cipher()
 
     if to_do == "3":
-        private_key = rsa.generate_private_key(
-            public_exponent=65537,
-            key_size=2048,
-            backend=default_backend()
-        )
-        public_key = private_key.public_key()
-        key_input = input("\n\nEnter the name of the key file to create : ")
-        priv_key_file = (key_input + "_private_key.pem")
-        publ_key_file = (key_input + "_public_key.pem")
+        key_type = input ("\nSelect a Cipher.\n\n\n1 - 1024 bits\n2 - 2048 bits (Recommended)\n3 - 3072 bits\n\n99 - Back to previous menu\n\n\nPlease enter a number : ")
+
+        if key_type == "1":
+            private_key = rsa.generate_private_key(
+                public_exponent=65537,
+                key_size=1024,
+                backend=default_backend()
+            )
+            public_key = private_key.public_key()
+            key_input = input("\n\nEnter the name of the key file to create : ")
+            priv_key_file = (key_input + "_private_key.pem")
+            publ_key_file = (key_input + "_public_key.pem")
+
+        if key_type == "2":
+            private_key = rsa.generate_private_key(
+                public_exponent=65537,
+                key_size=2048,
+                backend=default_backend()
+            )
+            public_key = private_key.public_key()
+            key_input = input("\n\nEnter the name of the key file to create : ")
+            priv_key_file = (key_input + "_private_key.pem")
+            publ_key_file = (key_input + "_public_key.pem")
+
+        if key_type == "3":
+            private_key = rsa.generate_private_key(
+                public_exponent=65537,
+                key_size=3072,
+                backend=default_backend()
+            )
+            public_key = private_key.public_key()
+            key_input = input("\n\nEnter the name of the key file to create : ")
+            priv_key_file = (key_input + "_private_key.pem")
+            publ_key_file = (key_input + "_public_key.pem")
+
+        if key_type == "99":
+            version4cipher()
 
         try:
             with open (priv_key_file, 'wb') as f_privkeyfile:
@@ -539,7 +571,8 @@ def version5cipher ():
 ║ file.                                                     ║
 ║                                                           ║ 
 ║ Encryption : 3 blowfish then 3 AES                        ║ 
-║ Decryption : 3 AES then 3 blowfish        logic.          ║ 
+║ Decryption : 3 AES then 3 blowfish        logic.          ║
+║ [more info in README.md]                                  ║ 
 ╚═══════════════════════════════════════════════════════════╝\n""")
 
     to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
@@ -977,7 +1010,7 @@ def version6cipher():
     print ("*************************************************************")
     print ("""\n╔═══════════════════════════════════════════════════════════╗
 ║ Encryption/Decryption using AES-256-CBC key and RSA       ║
-║ encryption for the AES key.                                  ║
+║ encryption for the AES key.                               ║
 ║                                                           ║ 
 ║ The AES algorithm (also known as the Rijndael algorithm)  ║
 ║ is a symmetrical block cipher algorithm that takes plain  ║
@@ -991,10 +1024,19 @@ def version6cipher():
 ║ private key is secret and must not be shared with anyone. ║ 
 ║                                                           ║ 
 ║ Usage :                                                   ║ 
-║  ║
-║  ║
-║  ║
-║  ║
+║                                                           ║
+║ First, you got to generate an AES key a RSA private and a ║
+║ RSA public key.                                           ║
+║                                                           ║
+║ For encryption, you got to specify the name of the file   ║
+║ you want to encrypt, select the AES key to encrypt the    ║
+║ data, and then select the RSA public key to encrypt the   ║
+║ AES key.                                                  ║
+║                                                           ║
+║ For decryption, you got to specify the name of the file   ║
+║ you want to decrypt, select the encrypted AES key, and    ║
+║ then select the RSA private key to decrypt the AES key.   ║
+║ [more info in README.md]                                  ║
 ╚═══════════════════════════════════════════════════════════╝\n""")
     to_do = input ("\nSelect an option.\n\n\n1 - Encrpytion\n2 - Decryption\n3 - Create key files\n\n99 - Return to previous menu\n\n\nPlease enter a number : ")
     if to_do == "1":
