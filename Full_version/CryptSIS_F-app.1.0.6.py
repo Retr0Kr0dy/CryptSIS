@@ -360,7 +360,10 @@ def version4cipher ():
     print ("*************************************************************")
     print ("""\n╔═══════════════════════════════════════════════════════════╗
 ║ Encryption/Decryption using three RSA private/public key  ║
-║ (only for plain text of less than 190 bytes)              ║
+║                                                           ║
+║ 1024 bits key = 86 bytes data                             ║
+║ 2048 bits key = 214 bytes data                            ║
+║ 1024 bits key = 342 bytes data                            ║
 ║                                                           ║ 
 ║ The RSA algorithm is an asymmetric cryptography algorithm;║
 ║ this means that it uses a public key and a private key    ║
@@ -384,9 +387,6 @@ def version4cipher ():
         try:
             with open (text, 'rb') as f_file_to_encrypt:
                 text_block = f_file_to_encrypt.read()
-                if len(text_block) > 190:
-                    input ("\n\nError : Data must be less than 190 bytes (press enter to continue)")
-                    version4cipher()
                 print ("\n\n---Target locked---")
         except:
             print ("\n")
