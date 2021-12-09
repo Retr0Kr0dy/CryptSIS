@@ -73,7 +73,11 @@
 
 [CrpyptSIS_F_app.1.0.2](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
  
-[CrpyptSIS_F_app.1.0.3](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F_app.1.0.4](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+
+[CrpyptSIS_F_app.1.0.5](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+
+[CrpyptSIS_F_app.1.0.6](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
  
 </details>
 </p>
@@ -306,13 +310,19 @@ A big mess of code to make useless thingz
 
 ## **CrptSIS F-app.1.0.x**
 
-All ciphers usable in one version
+All ciphers usable in one version,
+
+All ciphers in two powerfull hands, yours.
+
+
+ [More develop README.md about CryptSIS_F-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#cryptsis_f-appxxx)
 
 ### Requirements 
 
  - Python 3.10 
  - Blowfish lib
  - Pycryptodome lib
+ - Cryptography lib
 
 ### Releases
 
@@ -328,10 +338,17 @@ All ciphers usable in one version
 {fully-functional}
 
 ```
-All the ciphers in one powerfull hand, yours
-⚠️⚠️no Auth⚠️⚠️
+Contain following ciphers ;
+ - SHA256/utf-8
+ - BLOWFISH 
+ - AES-256-CBC
 ```
 
+- #### - CryptSIS_F-app.1.0.3 :
+
+```
+[not-released]
+```
 
 - #### - CryptSIS_F-app.1.0.4 :
 
@@ -339,6 +356,38 @@ All the ciphers in one powerfull hand, yours
 {fully-functional}
 
 ```
-All the ciphers in one powerfull hand, yours
-⚠️⚠️no Auth⚠️⚠️
+Contain following ciphers ;
+ - SHA256/utf-8
+ - BLOWFISH
+ - AES-256-CBC
+ - 2x3 (not working)
 ```
+
+- #### - CryptSIS_F-app.1.0.5 :
+
+>full-releases
+{fully-functional}
+
+```
+Contain following ciphers ;
+ - SHA256/utf-8
+ - BLOWFISH
+ - AES-256-CBC
+ - 2x3 (still not working)
+ ```
+
+- #### - CryptSIS_F-app.1.0.6 :
+
+>full-releases
+{fully-functional}
+
+```
+Contain following ciphers ;
+ - SHA256/utf-8
+ - BLOWFISH
+ - AES-256-CBC
+ - 2x3 (now working,... nah just kidding, still not ready for use)
+ - RSA (1024, 2048 and 3072 bits key lenght)
+ - AES-RSA
+```
+ [See more about CryptSIS_F-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#cryptsis_f-appxxx)
