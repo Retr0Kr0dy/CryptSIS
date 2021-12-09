@@ -1049,7 +1049,6 @@ def version6cipher():
             print ("\n")
             input ("Error : Key encryption failed (press enter to continue)")
             version6cipher() 
-        version6cipher()
 
         try:
             with open(output, 'wb') as f_output:
