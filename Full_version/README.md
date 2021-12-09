@@ -24,7 +24,7 @@
 
 # SHA256/utf-8
 
-- ## Usage :
+## Usage :
 
 ```
 First, you got to specify wich file you want to encrypt, then you specify 
@@ -32,9 +32,24 @@ the name of the output file, last you got to enter the key you want to use
 in raw text (you can't save the key).
 ```
 
+## Functioning :
+
+```
+Simple XOR operation;
+
+      raw_text = 1 0 1 0 0 1 (random binary value)    
+           key = 0 1 1 0 1 0 (random binary value)    
+  encrypt_text = 0 0 1 1 0 0 (1;1=1 0;0=1 1;0=0 0;1=0)
+           key = 0 1 1 0 1 0 (random binary value)    
+  decrypt_text = 1 0 1 0 0 1 (same math)              
+                                                       
+As you can see, data came back to it's original state by being run through 
+the key a second time.     
+```
+
 # Blowfish
 
-- ## Usage :
+## Usage :
 
 ```
 First, you got to specify wich file you want to encrypt,then you specify 
@@ -42,9 +57,16 @@ the name of the output file, last you got to create a key file or use an
 existant key file.  
 ```
 
+## Functioning :
+
+```
+Blowfish a block cipher, meaning that it divides a message up into fixed 
+length blocks during encryption and decryption. 
+```
+
 # AES-256-CBC
 
-- ## Usage :
+## Usage :
 
 ```
 First, you got to specify wich file you want to encrypt, then you specify 
@@ -52,9 +74,17 @@ the name of the output file, last you got to create a key file or use an
 existant key file.    
 ```
 
+## Functioning :
+
+```
+The AES algorithm (also known as the Rijndael algorithm) is a symmetrical block 
+cipher algorithm that takes plain text in blocks of 128 bits and converts them to 
+ciphertext using different size keys.
+```
+
 # RSA-2048
 
-- ## Usage :
+## Usage :
 
 ```
 First, you got to generate a RSA private and a RSA public key.
@@ -66,9 +96,18 @@ For decryption, you got to specify the name of the file you want to decrypt,
 select the RSA private key to decrypt the data.
 ```
 
+## Functioning :
+
+```
+The RSA algorithm is an asymmetric cryptography algorithm; this means that it uses 
+a public key and a private key (i.e two different, mathematically linked keys). 
+As their names suggest, a public key is shared publicly, while a private key is secret 
+and must not be shared with anyone.
+```
+
 # AES-RSA
 
-- ## Usage :
+## Usage :
 
 ```
 First, the receiver of the future encrypted data got to generate an AES key, 
@@ -83,7 +122,7 @@ select the encrypted AES key, and then select the RSA private key to decrypt
 the AES key.
 ```
 
-- ## Functioning :
+## Functioning :
 
  ### Key Generation :
   
