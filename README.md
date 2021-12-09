@@ -315,7 +315,7 @@ All ciphers usable in one version,
 All ciphers in two powerfull hands, yours.
 
 
- [More develop README.md about CryptSIS_F-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#cryptsis_f-appxxx)
+ [More developed README.md about CryptSIS_F-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#cryptsis_f-appxxx)
 
 ### Requirements 
 
