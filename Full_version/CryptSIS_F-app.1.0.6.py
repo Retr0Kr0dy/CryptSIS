@@ -45,7 +45,7 @@ def main ():
     print (" Encrypt/Decrpyt Using different Ciphers, Version F-app1.0.6")
     print (" -----------------------------------------------------------")
 
-    to_do = input ("\nSelect a Cipher.\n\n\n1 - SHA256/utf-8\n2 - Blowfish\n3 - AES-256-CBC\n4 - RSA-2048\n5 - 2x3 (secret cipher shhhhhhhh)               In progress.\n6 - AES + RSA\n\n99 - Exit\n\n\nPlease enter a number : ")
+    to_do = input ("\nSelect a Cipher.\n\n\n1 - SHA256/utf-8\n2 - Blowfish\n3 - AES-256-CBC\n4 - RSA\n5 - 2x3 (secret cipher shhhhhhhh)               In progress.\n6 - AES + RSA\n\n99 - Exit\n\n\nPlease enter a number : ")
     if to_do == "1":
         verion1cipher()
     
@@ -356,14 +356,14 @@ def version3cipher ():
     #Version 3.5 (modified)
 
 def version4cipher ():
-    print ("\n**************************RSA-2048***************************")
+    print ("\n****************************RSA******************************")
     print ("*************************************************************")
     print ("""\n╔═══════════════════════════════════════════════════════════╗
 ║ Encryption/Decryption using three RSA private/public key  ║
 ║                                                           ║
 ║ 1024 bits key = 86 bytes data                             ║
 ║ 2048 bits key = 214 bytes data                            ║
-║ 1024 bits key = 342 bytes data                            ║
+║ 3072 bits key = 342 bytes data                            ║
 ║                                                           ║ 
 ║ The RSA algorithm is an asymmetric cryptography algorithm;║
 ║ this means that it uses a public key and a private key    ║
