@@ -87,9 +87,9 @@ ciphertext using different size keys.
 ## Usage :
 
 ```
-[1024 bits key = 86 bytes data]
-[2048 bits key = 214 bytes data]
-[3072 bits key = 342 bytes data]
+[1024 bits key = 62 bytes data]
+[2048 bits key = 190 bytes data]
+[3072 bits key = 318 bytes data]
 
 First, you got to generate a RSA private and a RSA public key.
 
