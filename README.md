@@ -6,7 +6,7 @@
 
 ## Summary
 
-[CryptSIS._F_app.1.0.2 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS/releases/tag/CryptSIS_F_app.1.0.2)
+[CryptSIS._F-app.1.0.6 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS/releases/tag/CryptSIS_F-app.1.0.6)
 
 <details><summary>CryptSIS 1.x</summary>
 <p>
@@ -68,16 +68,16 @@
 </details>
 </p>
 
-<details><summary>CryptSIS F_app.1.0.x</summary>
+<details><summary>CryptSIS_F-app.1.0.x</summary>
 <p>
 
-[CrpyptSIS_F_app.1.0.2](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F-app.1.0.2](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
  
-[CrpyptSIS_F_app.1.0.4](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F-app.1.0.4](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
 
-[CrpyptSIS_F_app.1.0.5](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F-app.1.0.5](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
 
-[CrpyptSIS_F_app.1.0.6](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
+[CrpyptSIS_F-app.1.0.6](https://github.com/Retr0Kr0dy/CryptSIS#crptsis-f-app10x)
  
 </details>
 </p>
@@ -308,7 +308,7 @@ A big mess of code to make useless thingz
 ```
 
 
-## **CrptSIS F-app.1.0.x**
+## **CrptSIS_F-app.1.0.x**
 
 All ciphers usable in one version,
 
