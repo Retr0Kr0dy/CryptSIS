@@ -357,7 +357,7 @@ def version4cipher ():
     print ("*************************************************************")
     print ("""\n╔═══════════════════════════════════════════════════════════╗
 ║ Encryption/Decryption using three RSA private/public key  ║
-║ (only for plain text of less than 95 bytes)               ║
+║ (only for plain text of less than 190 bytes)              ║
 ║                                                           ║ 
 ║ The RSA algorithm is an asymmetric cryptography algorithm;║
 ║ this means that it uses a public key and a private key    ║
