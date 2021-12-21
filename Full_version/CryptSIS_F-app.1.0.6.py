@@ -477,7 +477,7 @@ def version4cipher ():
         version4cipher()
 
     if to_do == "3":
-        key_type = input ("\nSelect a Cipher.\n\n\n1 - 1024 bits\n2 - 2048 bits (Recommended)\n3 - 3072 bits\n\n99 - Back to previous menu\n\n\nPlease enter a number : ")
+        key_type = input ("\nSelect a Cipher.\n\n\n1 - 1024 bits\n2 - 2048 bits (Recommended)\n3 - 3072 bits\n4 - 4096 bits\n\n99 - Back to previous menu\n\n\nPlease enter a number : ")
 
         if key_type == "1":
             private_key = rsa.generate_private_key(
@@ -505,6 +505,17 @@ def version4cipher ():
             private_key = rsa.generate_private_key(
                 public_exponent=65537,
                 key_size=3072,
+                backend=default_backend()
+            )
+            public_key = private_key.public_key()
+            key_input = input("\n\nEnter the name of the key file to create : ")
+            priv_key_file = (key_input + "_private_key.pem")
+            publ_key_file = (key_input + "_public_key.pem")
+
+        if key_type == "4":
+            private_key = rsa.generate_private_key(
+                public_exponent=65537,
+                key_size=4096,
                 backend=default_backend()
             )
             public_key = private_key.public_key()
