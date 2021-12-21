@@ -90,6 +90,7 @@ ciphertext using different size keys.
 [1024 bits key = 62 bytes data]
 [2048 bits key = 190 bytes data]
 [3072 bits key = 318 bytes data]
+[4096 bits key = 446 bytes data]
 
 First, you got to generate a RSA private and a RSA public key.
 
