@@ -3,6 +3,7 @@
 ## Last Updates
 
 Adding color to CLI config
+
 Adding folder enumeration
 
 ## Requirements
