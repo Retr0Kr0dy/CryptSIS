@@ -8,6 +8,8 @@
 
 [CryptSIS._F-app.1.0.6 (last-stable-releases)](https://github.com/Retr0Kr0dy/CryptSIS/releases/tag/CryptSIS_F-app.1.0.6)
 
+[Go check last upgrade of the project](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version)
+
 <details><summary>CryptSIS 1.x</summary>
 <p>
 
@@ -403,7 +405,7 @@ Folder encryption (each files seperatly)
 
 Colored CLI, last update of the CryptSIS project
 
- [More developed README.md about CryptSIS_AZURA-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version
+ [More developed README.md about CryptSIS_AZURA-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version)
 
 ### Requirements 
 
