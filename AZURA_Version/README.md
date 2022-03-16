@@ -26,6 +26,8 @@ Adding folder enumeration
   
 - ### [RSA](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/AZURA_Version/README.md#rsa-1)
 
+- ### [Working with folder](https://github.com/Retr0Kr0dy/CryptSIS/blob/main/AZURA_Version/README.md#rsa-1)
+
 # SHA256/utf-8
 
 ## Usage :
@@ -161,4 +163,15 @@ The sender push the encrypted data and the encrypted AES key to the receiver.
 ```
 When decrypting, the AES key is decrypted with the receiver's RSA private key
 Then the encrypted data is decrypted by the AES key.
+```
+
+# Working with folder :
+
+## Usage :
+
+```
+There is different way to work with encrypting a folder, for now, CryptSIS only proposing a target by target working environement (it means it would list all files in a folder and work with each of them idependently).
+
+Other way to do it are faster and much more secure, but it's only a time miner for people who need to fastly encrypt a bunch of key.
+In the case you have a lot of data to work with (like 1Tb to encrypt), a better way is to make an archive of the folder want to encrypt, and then encrypt the archive.
 ```
