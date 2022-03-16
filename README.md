@@ -403,7 +403,7 @@ Folder encryption (each files seperatly)
 
 Colored CLI, last update of the CryptSIS project
 
- [More developed README.md about CryptSIS_AZURA-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version#README.md
+ [More developed README.md about CryptSIS_AZURA-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version
 
 ### Requirements 
 
@@ -417,5 +417,6 @@ Colored CLI, last update of the CryptSIS project
 - #### - CryptSIS_F-app.1.0.1 :
 
 ```
-[not-released]
+>dev-releases
+ {usable}
 ```
