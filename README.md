@@ -391,3 +391,31 @@ Contain following ciphers ;
  - AES-RSA
 ```
  [See more about CryptSIS_F-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/Full_version#cryptsis_f-appxxx)
+
+
+## **CrptSIS_AZURA-app.x.x.x**
+
+All ciphers usable in one version,
+
+All ciphers in two powerfull hands, yours.
+
+Folder encryption (each files seperatly)
+
+Colored CLI, last update of the CryptSIS project
+
+ [More developed README.md about CryptSIS_AZURA-app.X.X.X](https://github.com/Retr0Kr0dy/CryptSIS/tree/main/AZURA_Version#README.md
+
+### Requirements 
+
+ - Python 3.10 
+ - Blowfish lib
+ - Pycryptodome lib
+ - Cryptography lib
+
+### Releases
+
+- #### - CryptSIS_F-app.1.0.1 :
+
+```
+[not-released]
+```
